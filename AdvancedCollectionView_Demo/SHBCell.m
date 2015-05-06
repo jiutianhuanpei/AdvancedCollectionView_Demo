@@ -39,7 +39,7 @@
     _lineView.frame = CGRectMake(0, 49, 100, 1);
     _board.frame = CGRectMake(0, 50, 100, 10);
     
-    return CGSizeMake(100, CGRectGetMaxY(_board.frame));
+    return CGSizeMake(50, CGRectGetMaxY(_board.frame) + 10);
 }
 
 
